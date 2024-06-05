@@ -2,7 +2,7 @@
 
 This repository contains a Python script that makes it easy to retrieve the Bundle ID of applications on macOS. The Bundle ID is a unique identifier for each application, useful for various purposes such as task automation or script development.
 
-How to Install
+## How to Install
 
 Make sure you have Python installed on your system. You can download it from python.org.
 
@@ -10,12 +10,16 @@ Clone this repository to your computer using the command:
 
 bash
 Copy code
-```git clone https://github.com/torrancetech/get-bundle-id.git```
+```
+git clone https://github.com/torrancetech/get-bundle-id.git
+```
 Navigate to the repository directory:
 
 bash
 Copy code
-```cd get-bundle-id```
+```
+cd get-bundle-id
+```
 How to Use
 
 Open the terminal and navigate to the directory where the id.py script is located.
@@ -24,7 +28,9 @@ Run the Python script by dragging and dropping the desired application into the 
 
 bash
 Copy code
-```python3 id.py /Applications/YourApp.app```
+```
+python3 id.py /Applications/YourApp.app
+```
 Replace /Applications/YourApp.app with the path of the application you want to retrieve the Bundle ID for.
 
 The script will display the Bundle ID of the application in the terminal.
